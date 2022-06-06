@@ -1,60 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" id="body2">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stilo/style.css">
     <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
-    <title>Estilo</title>
+    <title>Publicaçoes</title>
 </head>
-<body>
+<body onload="teste()">
+    <div class="mostra" id="mostra">
+        <div class="sub-fecha">
+            <div id="fecha" class="fecha">X</div>
+        </div>
+        <div id="sub-mostra" class="sub-mostra"></div>
+    </div>
     <section>
         <header>
+            <img src="imagem/coruja.png" alt="erro" srcset="" class="coruja"> 
             <h1>Produções Escolares</h1>
-            <p>de Língua Portuguesa</p>
+            <p class="efeito">de Língua Portuguesa</p>
             <nav>
                 <label for="turma">Turma:</label>
                 <select name="turma" id="turma">
                     <option value="8A">8A</option>
                     <option value="8B">8B</option>
+                    <option value="8D">8D</option>
                     <option value="9A">9A</option>
                     <option value="9B">9B</option>
                 </select>
-                <button onclick="filtrar()">filtrar</button>
+                <button id="filtrar">filtrar</button>
             </nav>
         </header>
         <main>
-            <div class="recentes" id="recentes">
-        
-            </div>
-            <div id="fotos" class="fotos">
-                <div class="geral">
-                    <img src="img/1.jpg" alt="" srcset="">
-                    <div class="turma">8A</div>
-                    <p class="texto">um texto pequeno pra representar</p>
-                </div>
-                <div class="geral">
-                    <img src="img/2.jpg" alt="" srcset="">
-                    <div class="turma">8B</div>
-                    <p class="texto">um texto mais ou menos Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non voluptates corporis mollitia! Distinctio alias et adipisci architecto recusandae optio minima corrupti autem magnam nulla sunt facilis corporis, fugiat facere!</p>
-                </div>
-                <div class="geral">
-                    <img src="img/3.jpg" alt="" srcset="">
-                    <div class="turma">9B</div>
-                    <p class="texto">um texto grande: Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque iusto maxime cum mollitia nisi at quibusdam, atque nulla quas. Ratione atque delectus porro accusamus eos maiores laudantium exercitationem reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta debitis ducimus perferendis repudiandae? Autem provident molestiae facilis et dolores totam nulla excepturi voluptas rerum iste. Doloremque odit praesentium animi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus neque voluptatem maxime pariatur error, maiores sunt iusto excepturi officia numquam a architecto nihil nobis, unde atque officiis voluptatum eveniet vero!</p>
-                </div>
-                <div class="geral">
-                    <img src="img/4.jpg" alt="" srcset="">
-                    <div class="turma">9A</div>
-                    <p class="texto">um texto muito grande: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam velit mollitia a qui, corporis perferendis praesentium cumque ducimus suscipit incidunt ipsam, voluptatum et! Fuga explicabo vel reiciendis rem, sed odit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste omnis libero non rerum voluptas? Voluptatum, exercitationem. Corporis, eum debitis. Consequuntur incidunt sint, vero suscipit exercitationem quod architecto nulla a! Soluta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, tenetur. Consectetur, fugit cumque. Reiciendis pariatur harum minus eligendi corporis aperiam cumque repellendus voluptate sunt assumenda! Deserunt corrupti placeat quae vero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum reprehenderit, nostrum eligendi vitae necessitatibus dignissimos, similique minus quas fugit ipsam minima modi molestias cumque, enim consectetur nulla odit! Hic, suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore voluptatem recusandae quae obcaecati non nisi laudantium unde! Quos facere, nihil enim quis omnis repellendus dolorem nostrum, exercitationem dolore, architecto amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corporis soluta quae dignissimos. Veritatis culpa quibusdam accusantium nesciunt, sunt nobis repellat? Adipisci cupiditate eum sunt nihil architecto iusto dolorem tempora?</p>
-                </div>
-            </div>
+            <div class="recestes" id="recentes"></div>
+            <div class="fotos" id="fotos"></div>
         </main>
         <footer>
-            <p>Desenvolvido por <a href="">Vinicius</a></p>
+            <p>Desenvolvido por <a href="https://www.instagram.com/vbsousas2/" target="_blank">Vinicius</a></p>
         </footer>
     </section>
-    <!--<a target="_blank" href="https://icons8.com/icon/P6W1qLRLj5Mo/owl">Owl</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> coloca o link referente ao favicon-->
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--<script src="chamada/mostraFoto.js"></script>-->
+    <script type="module" src="chamajs/fotoconfig.js"></script>
+    <script src="chamajs/script.js"></script>
+    <script type="module" src="chamajs/carregafoto.js"></script>
 </body>
 </html>
