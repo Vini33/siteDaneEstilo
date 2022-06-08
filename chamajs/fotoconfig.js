@@ -1,4 +1,4 @@
-const dados = [['foto1.jpg','ola mundo apenas um teste','8B'],
-['foto2.jpg','outro apenas pra ver como vai ser agora vai ser um testo grande pra ver como se comporta','8D'],
-['foto3.jpg','lorem','8A'],['foto4.jpg','ola sou de novo','8B']]
+const dados = [['O amigo de paz.jpg','O amigo de paz','8A'],
+['O jabuti e o coelho.jpg','O jabuti e o coelho','9A'],
+['O segredo da plebeia.png','O segredo da plebeia','9A']]
 export {dados}
