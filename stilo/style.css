@@ -76,7 +76,7 @@ h1{
 }
 .grande{
     overflow: auto;
-    height: 200px;
+    height: 50px;
 }
 .turma{
     display: inline-block;
@@ -165,4 +165,8 @@ button{
     border: 1px solid black;
     text-align: center;
     margin: 10px;
+}
+.imagemGrande{
+    width: 60%;
+    height: 60%;
 }

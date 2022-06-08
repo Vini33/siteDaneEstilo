@@ -20,7 +20,7 @@ function teste(){
         if(clas == 'geral'){
             mostra.style.display = 'block'
             mostra.style = "width:100%;height:100%;"
-            submostra.innerHTML = "<div class='tunel-mostra'><img src='"+pathImagem+"'><div>"+sala+"</div><p class='grande'>"+texto+"</p></div>"
+            submostra.innerHTML = "<div class='tunel-mostra'><img class='imagemGrande' src='"+pathImagem+"'><div>"+sala+"</div><p class='grande'>"+texto+"</p></div>"
         }
         localscrol = scrol.scrollTop
         scrol.scrollTop = 0 //funciona assim
