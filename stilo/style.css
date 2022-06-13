@@ -170,3 +170,16 @@ button{
     width: 100%;
     height: 100%;
 }
+/*da pagina load*/
+.sub-img{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+    border: 1px solid black;
+}
+main{
+    text-align: center;
+}
